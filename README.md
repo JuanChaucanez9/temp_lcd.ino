@@ -14,7 +14,12 @@ Este laboratorio consiste en el desarrollo de un sistema de control y monitoreo 
 
 ## link del Tinkercard
 
-https://www.tinkercad.com/things/4dysGIBp4H1-stunning-blad-curcan/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard 
+[https://www.tinkercad.com/things/4dysGIBp4H1-stunning-blad-curcan/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard ](https://www.tinkercad.com/things/4dysGIBp4H1-stunning-blad-curcan)
+
+## foto cel circuito
+
+<img width="1142" height="699" alt="image" src="https://github.com/user-attachments/assets/2019763a-0328-4300-93a1-65b4ad320422" />
+
 
 ## Código principal
 #include <LiquidCrystal.h>
