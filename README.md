@@ -9,6 +9,7 @@ Este laboratorio consiste en el desarrollo de un sistema de control y monitoreo 
 
 ## Esquema de conexión
 
+<img width="806" height="632" alt="esquema" src="https://github.com/user-attachments/assets/be22ee8d-1ec1-449a-9043-1884c1bf13ea" />
 
 
 ## Código principal
