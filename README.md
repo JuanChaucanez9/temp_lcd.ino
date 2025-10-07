@@ -12,6 +12,10 @@ Este laboratorio consiste en el desarrollo de un sistema de control y monitoreo 
 <img width="806" height="632" alt="esquema" src="https://github.com/user-attachments/assets/be22ee8d-1ec1-449a-9043-1884c1bf13ea" />
 
 
+## link del Tinkercard
+
+https://www.tinkercad.com/things/4dysGIBp4H1-stunning-blad-curcan/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard 
+
 ## Código principal
 
 ```cpp
