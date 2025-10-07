@@ -1,6 +1,22 @@
-# Laboratorio Nro. 4 - Control de Temperatura con Arduino y LCD
+# Laboratorio Nro. 4 - Control de Temperatura con Arduino y LCD 
+![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png)
 
-Este laboratorio consiste en el desarrollo de un sistema de control y monitoreo de temperatura utilizando un sensor TMP36, una pantalla LCD 16x2, un LED indicador y un ventilador (motor). El sistema lee la temperatura ambiente, la muestra en la pantalla LCD, y actúa en función de ciertos rangos de temperatura para controlar el LED y el ventilador.
+En este laboratorio se diseñó y simuló un circuito con Arduino UNO que integra varios componentes electrónicos: un sensor de temperatura, un motor DC, un LED indicador, un transistor NPN, un diodo de protección, un potenciómetro y una pantalla LCD 16x2.
+El objetivo principal es controlar el encendido del motor y del LED en función de la temperatura medida por el sensor, además de mostrar información en la pantalla LCD.
+
+El funcionamiento del circuito se basa en la lectura analógica de la temperatura.
+Cuando el valor de temperatura supera cierto umbral, el Arduino envía una señal de salida que activa el transistor NPN, permitiendo el paso de corriente hacia el motor DC, el cual comienza a girar.
+Al mismo tiempo, se enciende un LED rojo que indica visualmente que el sistema está activo.
+Cuando la temperatura desciende por debajo del valor establecido, tanto el motor como el LED se apagan.
+
+El sensor de temperatura (por ejemplo, un LM35 o TMP36) está conectado a una entrada analógica del Arduino, que convierte la señal de voltaje en un valor digital para calcular la temperatura.
+La pantalla LCD se utiliza para mostrar mensajes como “Hello World” o los valores medidos, aunque en la simulación, la parte que responde correctamente es la de la temperatura, ya que el encendido del LED y el movimiento del motor dependen directamente de ese dato.
+
+El circuito incluye un diodo conectado en paralelo con el motor, que actúa como protección ante los picos de corriente generados por la bobina del motor al encenderse y apagarse.
+El potenciómetro ajusta el contraste del LCD, y el transistor funciona como un interruptor controlado por la señal PWM enviada desde el Arduino.
+
+En conclusión, el laboratorio demuestra cómo el Arduino puede leer una variable física (temperatura) y, en respuesta, activar o desactivar dispositivos eléctricos como un motor o un LED.
+Aunque otros elementos del montaje, como el potenciómetro o la pantalla LCD, forman parte del circuito, el sistema que se encuentra funcionando correctamente es el de control de temperatura, que regula el motor y el LED
 
 ## Materiales
 
