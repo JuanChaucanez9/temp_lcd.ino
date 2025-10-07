@@ -13,11 +13,6 @@ Cuando la temperatura desciende por debajo del valor establecido, tanto el motor
 El sensor de temperatura (por ejemplo, un LM35 o TMP36) está conectado a una entrada analógica del Arduino, que convierte la señal de voltaje en un valor digital para calcular la temperatura.
 La pantalla LCD se utiliza para mostrar mensajes como “Hello World” o los valores medidos, aunque en la simulación, la parte que responde correctamente es la de la temperatura, ya que el encendido del LED y el movimiento del motor dependen directamente de ese dato.
 
-El circuito incluye un diodo conectado en paralelo con el motor, que actúa como protección ante los picos de corriente generados por la bobina del motor al encenderse y apagarse.
-El potenciómetro ajusta el contraste del LCD, y el transistor funciona como un interruptor controlado por la señal PWM enviada desde el Arduino.
-
-En conclusión, el laboratorio demuestra cómo el Arduino puede leer una variable física (temperatura) y, en respuesta, activar o desactivar dispositivos eléctricos como un motor o un LED.
-Aunque otros elementos del montaje, como el potenciómetro o la pantalla LCD, forman parte del circuito, el sistema que se encuentra funcionando correctamente es el de control de temperatura, que regula el motor y el LED
 
 ## Materiales
 
@@ -38,6 +33,11 @@ Aunque otros elementos del montaje, como el potenciómetro o la pantalla LCD, fo
 
 <img width="1142" height="699" alt="image" src="https://github.com/user-attachments/assets/2019763a-0328-4300-93a1-65b4ad320422" />
 
+El circuito incluye un diodo conectado en paralelo con el motor, que actúa como protección ante los picos de corriente generados por la bobina del motor al encenderse y apagarse.
+El potenciómetro ajusta el contraste del LCD, y el transistor funciona como un interruptor controlado por la señal PWM enviada desde el Arduino.
+
+En conclusión, el laboratorio demuestra cómo el Arduino puede leer una variable física (temperatura) y, en respuesta, activar o desactivar dispositivos eléctricos como un motor o un LED.
+Aunque otros elementos del montaje, como el potenciómetro o la pantalla LCD, forman parte del circuito, el sistema que se encuentra funcionando correctamente es el de control de temperatura, que regula el motor y el LED
 
 ## Código principal ![Arduino](https://img.icons8.com/color/48/000000/arduino.png)
 
