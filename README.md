@@ -1,6 +1,6 @@
 # Laboratorio Nro. 4 - Control de Temperatura con Arduino y LCD 
 ![GitHub](https://img.icons8.com/material-outlined/48/000000/github.png)
-![Tinkercad](https://img.icons8.com/ios-filled/50/000000/cad-file.png)
+
 
 En este laboratorio se diseñó y simuló un circuito con Arduino UNO que integra varios componentes electrónicos: un sensor de temperatura, un motor DC, un LED indicador, un transistor NPN, un diodo de protección, un potenciómetro y una pantalla LCD 16x2.
 El objetivo principal es controlar el encendido del motor y del LED en función de la temperatura medida por el sensor, además de mostrar información en la pantalla LCD.
@@ -30,7 +30,7 @@ Aunque otros elementos del montaje, como el potenciómetro o la pantalla LCD, fo
 
 
 ## link del Tinkercard
-![Tinkercad](https://img.icons8.com/ios-filled/50/000000/cad-file.png)
+
 
 [https://www.tinkercad.com/things/4dysGIBp4H1-stunning-blad-curcan/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard ](https://www.tinkercad.com/things/4dysGIBp4H1-stunning-blad-curcan)
 
