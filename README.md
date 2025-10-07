@@ -4,15 +4,12 @@ Este laboratorio consiste en el desarrollo de un sistema de control y monitoreo 
 
 ## Materiales
 
-- Arduino UNO  
-- Sensor TMP36  
-- Pantalla LCD 16x2  
-- LED y ventilador  
-- Resistencias, cables, protoboard  
+<img width="1506" height="412" alt="materiales" src="https://github.com/user-attachments/assets/d9c7b763-21da-448b-8f8d-653740b309ed" />
+
 
 ## Esquema de conexión
 
-![Esquema](imagenes/esquema_laboratorio4.png)
+
 
 ## Código principal
 
