@@ -1,4 +1,4 @@
-#Integrantes del grupo de desarrollo 
+# Integrantes del grupo de desarrollo 
 
 - Juan David Chaucanez Saldaña 
 
