@@ -1,7 +1,7 @@
 ##Integrantes del grupo de desarrollo 
-Juan David Chaucanez Saldaña 
-Brayan Steven Delgado Gomez 
-Jhon Sebastian Gomez Garcia 
+#Juan David Chaucanez Saldaña 
+#Brayan Steven Delgado Gomez 
+#Jhon Sebastian Gomez Garcia 
 
 
 # Laboratorio Nro. 4 - Control de Temperatura con Arduino y LCD 
